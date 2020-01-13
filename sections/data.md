@@ -49,7 +49,7 @@ $ tail nypl_items.csv
 
 These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
 
-### Interlude for Jojo's favorite command line feature: tab completion.
+### Pro-Tip: tab completion.
 
 When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes `tab` completion, stage right! 
 
@@ -87,6 +87,16 @@ $ $ cat nypl_items.csv | uniq -d
 ```
 
 The `uniq` command with the `-d` flag prints out the lines that have duplicates. 
+
+### The Help flag
+
+You thought `wc` just counted words, and you just learned that it can do much more than that and count lines, too! If you're wondering what else this command (or any other command, for that matter) is capable of doing, you can use the flag `--help` and the command line will print a list of all possible flags that can be used for a specific command and their functions. Try out: 
+
+```
+$ wc --help
+```
+
+If you're curious about why this flag uses two hyphens instead of one, it is to specify the end of flags. You can read more about it [here](https://askubuntu.com/questions/813303/whats-the-difference-between-one-hyphen-and-two-hyphens-in-a-command).
 
 ### Challenge
 
