@@ -88,23 +88,6 @@ $ $ cat nypl_items.csv | uniq -d
 
 The `uniq` command with the `-d` flag prints out the lines that have duplicates. 
 
-### The Help flag / The Manual Command
-
-You thought `wc` just counted words, and you just learned that it can do much more than that and count lines, too! If you're wondering what else this command (or any other command, for that matter) is capable of doing, you can use the flag `--help` and the command line will print a list of all possible flags that can be used for a specific command and their functions. Try out: 
-
-```
-$ wc --help
-```
-
-If you're curious about why this flag uses two hyphens instead of one, it is to specify the end of flags. You can read more about it [here](https://askubuntu.com/questions/813303/whats-the-difference-between-one-hyphen-and-two-hyphens-in-a-command).
-
-However, it is possible that the help command does not work in your system. If that is the case, try the command `man`, like this:
-
-```
-$ man wc
-```
-Man stands for "manual", and with this command you'll be able to read the usage of the commands, just as if you used the --help flag.
-
 ### Challenge
 
 Use the commands you've learned so far to create a new version of the `nypl_items.csv` file with the duplicated lines removed. (Hint: [redirects](creating_a_cheat_sheet.md) are your friend.)
